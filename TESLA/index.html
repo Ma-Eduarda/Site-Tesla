@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESLA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="logo" src="img\logo.png" alt="logo tesla">
+
+    <ul>
+        <!-- ITEM 1-->
+        <li class="item">
+            <video src="./img/Introducing Model Y.mp4" autoplay loop muted></video>
+
+            <div class="info-carro">
+                <h1>Model Y</h1>
+                <p>Parcelas a partir de $499 dólares</p>
+            </div>
+
+        </li>
+
+        <!-- ITEM 2-->
+        <li class="item">
+            <img class="img-tesla" src="./img/model-x.png">
+
+            <div class="info-carro">
+                <div class="info-color">
+                    <h1>Model X </h1>
+                    <p>Compre agora seu Tesla </p>
+                </div>
+            </div>
+        </li>
+
+        <!-- ITEM 3-->
+        <li class="item">
+            <img class="img-tesla" src="./img/model-s.png">
+            <div class="info-carro">
+                <div class="info-color">
+                    <h1>Model S</h1>
+                    <p>Parcelas a partir de $499 dólares</p>
+                </div>
+            </div>
+        </li>
+
+        <!-- ITEM 4-->
+        <li class="item">
+            <img class="img-tesla" src="./img/model-3.png">
+            <div class="info-carro">
+                <div class="info-color">
+                    <h1>Model 3</h1>
+                    <p>Parcelas a partir de $499 dólares</p>
+                </div>
+            </div>
+        </li>
+
+
+
+    </ul>
+
+    <div class="rodape">
+        <div class="botao">
+            <button onclick="aparecerForm()">Compre Agora</button>
+            <button class="test-drive">Test Drive</button>
+        </div>
+        <p>*Excluí impostos e taxas, com preço sujeito à mudanças</p>
+    </div>
+
+
+    <div class="box">
+        <form>
+            <fieldset>
+                <img src="./img/logo.png">
+                <hr>
+                <br>
+                <div class="input-box">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder=" Digite seu Nome Completo">
+                </div>
+
+                <br>
+
+                <div class="input-box">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder=" Digite seu E-mail">
+                </div>
+
+                <br>
+
+                <div class="input-box">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx">
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar</button>
+                <button onclick="desaparecerForm()">Fechar</button>
+
+
+            </fieldset>
+        </form>
+
+
+    </div>
+
+    <!-- <div class="formulario">
+            <button onclick="desaparecerForm()">Fechar</button>
+            <script type="text/javascript" src="https://form.jotform.com/jsform/241947113942054"></script>
+        </div> -->
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
