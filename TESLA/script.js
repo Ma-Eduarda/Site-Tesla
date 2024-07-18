@@ -1,8 +1,7 @@
 let formulario = document.querySelector(".box")
 
-function aparecerForm(event){
+function aparecerForm(){
     formulario.style.opacity = "90%"
-    event.preventDefault();
 }
 
 function desaparecerForm(event){
